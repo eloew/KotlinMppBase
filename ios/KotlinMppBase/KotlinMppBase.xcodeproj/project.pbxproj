@@ -1,0 +1,394 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1AF0C8F323F05FCE00D4A009 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF0C8F223F05FCE00D4A009 /* AppDelegate.swift */; };
+		1AF0C8F523F05FCE00D4A009 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF0C8F423F05FCE00D4A009 /* SceneDelegate.swift */; };
+		1AF0C8F723F05FCE00D4A009 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF0C8F623F05FCE00D4A009 /* ViewController.swift */; };
+		1AF0C8FA23F05FCE00D4A009 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AF0C8F823F05FCE00D4A009 /* Main.storyboard */; };
+		1AF0C8FC23F05FD000D4A009 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AF0C8FB23F05FD000D4A009 /* Assets.xcassets */; };
+		1AF0C8FF23F05FD000D4A009 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AF0C8FD23F05FD000D4A009 /* LaunchScreen.storyboard */; };
+		1AF0C90823F06D9A00D4A009 /* SharedCode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AF0C90723F06D9A00D4A009 /* SharedCode.framework */; };
+		1AF0C90923F06D9A00D4A009 /* SharedCode.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1AF0C90723F06D9A00D4A009 /* SharedCode.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1AF0C90A23F06D9A00D4A009 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				1AF0C90923F06D9A00D4A009 /* SharedCode.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1AF0C8EF23F05FCE00D4A009 /* KotlinMppBase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KotlinMppBase.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AF0C8F223F05FCE00D4A009 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1AF0C8F423F05FCE00D4A009 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1AF0C8F623F05FCE00D4A009 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1AF0C8F923F05FCE00D4A009 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1AF0C8FB23F05FD000D4A009 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1AF0C8FE23F05FD000D4A009 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1AF0C90023F05FD000D4A009 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AF0C90723F06D9A00D4A009 /* SharedCode.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SharedCode.framework; path = "../../SharedCode/build/xcode-frameworks/SharedCode.framework"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1AF0C8EC23F05FCE00D4A009 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AF0C90823F06D9A00D4A009 /* SharedCode.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1AF0C8E623F05FCE00D4A009 = {
+			isa = PBXGroup;
+			children = (
+				1AF0C8F123F05FCE00D4A009 /* KotlinMppBase */,
+				1AF0C8F023F05FCE00D4A009 /* Products */,
+				1AF0C90623F06D9900D4A009 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1AF0C8F023F05FCE00D4A009 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1AF0C8EF23F05FCE00D4A009 /* KotlinMppBase.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1AF0C8F123F05FCE00D4A009 /* KotlinMppBase */ = {
+			isa = PBXGroup;
+			children = (
+				1AF0C8F223F05FCE00D4A009 /* AppDelegate.swift */,
+				1AF0C8F423F05FCE00D4A009 /* SceneDelegate.swift */,
+				1AF0C8F623F05FCE00D4A009 /* ViewController.swift */,
+				1AF0C8F823F05FCE00D4A009 /* Main.storyboard */,
+				1AF0C8FB23F05FD000D4A009 /* Assets.xcassets */,
+				1AF0C8FD23F05FD000D4A009 /* LaunchScreen.storyboard */,
+				1AF0C90023F05FD000D4A009 /* Info.plist */,
+			);
+			path = KotlinMppBase;
+			sourceTree = "<group>";
+		};
+		1AF0C90623F06D9900D4A009 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1AF0C90723F06D9A00D4A009 /* SharedCode.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1AF0C8EE23F05FCE00D4A009 /* KotlinMppBase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AF0C90323F05FD000D4A009 /* Build configuration list for PBXNativeTarget "KotlinMppBase" */;
+			buildPhases = (
+				1AF0C90B23F06E3600D4A009 /* ShellScript */,
+				1AF0C8EB23F05FCE00D4A009 /* Sources */,
+				1AF0C8EC23F05FCE00D4A009 /* Frameworks */,
+				1AF0C8ED23F05FCE00D4A009 /* Resources */,
+				1AF0C90A23F06D9A00D4A009 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KotlinMppBase;
+			productName = KotlinMppBase;
+			productReference = 1AF0C8EF23F05FCE00D4A009 /* KotlinMppBase.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1AF0C8E723F05FCE00D4A009 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = erl;
+				TargetAttributes = {
+					1AF0C8EE23F05FCE00D4A009 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = 1AF0C8EA23F05FCE00D4A009 /* Build configuration list for PBXProject "KotlinMppBase" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1AF0C8E623F05FCE00D4A009;
+			productRefGroup = 1AF0C8F023F05FCE00D4A009 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1AF0C8EE23F05FCE00D4A009 /* KotlinMppBase */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1AF0C8ED23F05FCE00D4A009 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AF0C8FF23F05FD000D4A009 /* LaunchScreen.storyboard in Resources */,
+				1AF0C8FC23F05FD000D4A009 /* Assets.xcassets in Resources */,
+				1AF0C8FA23F05FCE00D4A009 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1AF0C90B23F06E3600D4A009 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cd \"$SRCROOT/../../SharedCode/build/xcode-frameworks\"\n./gradlew :SharedCode:packForXCode -PXCODE_CONFIGURATION=${CONFIGURATION}\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1AF0C8EB23F05FCE00D4A009 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AF0C8F723F05FCE00D4A009 /* ViewController.swift in Sources */,
+				1AF0C8F323F05FCE00D4A009 /* AppDelegate.swift in Sources */,
+				1AF0C8F523F05FCE00D4A009 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1AF0C8F823F05FCE00D4A009 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AF0C8F923F05FCE00D4A009 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1AF0C8FD23F05FD000D4A009 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AF0C8FE23F05FD000D4A009 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1AF0C90123F05FD000D4A009 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1AF0C90223F05FD000D4A009 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1AF0C90423F05FD000D4A009 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7975HM7LNW;
+				INFOPLIST_FILE = KotlinMppBase/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = erl.KotlinMppBase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../../SharedCode/build/xcode-frameworks";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1AF0C90523F05FD000D4A009 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7975HM7LNW;
+				INFOPLIST_FILE = KotlinMppBase/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = erl.KotlinMppBase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../../SharedCode/build/xcode-frameworks";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1AF0C8EA23F05FCE00D4A009 /* Build configuration list for PBXProject "KotlinMppBase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AF0C90123F05FD000D4A009 /* Debug */,
+				1AF0C90223F05FD000D4A009 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AF0C90323F05FD000D4A009 /* Build configuration list for PBXNativeTarget "KotlinMppBase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AF0C90423F05FD000D4A009 /* Debug */,
+				1AF0C90523F05FD000D4A009 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1AF0C8E723F05FCE00D4A009 /* Project object */;
+}
